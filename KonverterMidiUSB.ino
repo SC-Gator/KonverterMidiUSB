@@ -1,3 +1,19 @@
+//Cleaned up code to run with USB_Host_Shield_2.0 library v1.4.0
+//Mainly just commenting out includes no longer needed
+// renamed hid.h to usbhid.h
+
+//#include <address.h>
+//#include <confdescparser.h>
+//#include <KeyboardController.h>
+//#include <MouseController.h>
+//#include <parsetools.h>
+//#include <usb_ch9.h>
+#include <adk.h>
+#include <usbhid.h>
+#include <hidboot.h>
+#include <hidusagestr.h>
+#include <Usb.h>
+
 /*
  *******************************************************************************
  * Serial MIDI and USB Host bidirectional converter
